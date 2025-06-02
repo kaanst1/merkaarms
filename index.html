@@ -7,22 +7,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>MERKA ARMS</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="hakkimizda.html">Hakkımızda</a></li>
-          <li><a href="urunler.html">Ürünler</a></li>
-          <li><a href="teknoloji.html">Teknoloji</a></li>
-          <li><a href="kalite.html">Kalite</a></li>
-          <li><a href="haberler.html">Haberler</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+ <header>
+  <div class="container logo-nav">
+    <a href="index.html">
+      <img src="resim/logo.jpg" alt="MERKA ARMS Logo" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="urunler.html">Ürünler</a></li>
+        <li><a href="teknoloji.html">Teknoloji</a></li>
+        <li><a href="kalite.html">Kalite</a></li>
+        <li><a href="haberler.html">Haberler</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+        <li class="language-switcher">
+          <select onchange="location = this.value;">
+            <option value="#" selected>Dil</option>
+            <option value="index.html">🇹🇷 Türkçe</option>
+            <option value="en-index.html">🇬🇧 English</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
 
   <section class="hero" style="background-image: url('https://cdn.pixabay.com/photo/2019/12/15/11/00/gun-4697687_1280.jpg');">
     <div class="container hero-text">
@@ -41,12 +52,12 @@
           <p>Polis ve askeri personel için geliştirilmiş, üstün dayanıklılığa sahip görev silahı.</p>
         </div>
         <div class="urun">
-          <img src="/resim/23.png" alt="MERKA P35">
+          <img src="/resim/p35.png" alt="MERKA P35">
           <h3>MERKA P35</h3>
           <p>Hafifliği ve seri atış kabiliyetiyle saha üstünlüğü sağlayan taktik tabanca.</p>
         </div>
         <div class="urun">
-          <img src="/resim/1.png" alt="MERKA M19">
+          <img src="/resim/m19.png" alt="MERKA M19">
           <h3>MERKA M19</h3>
           <p>Profesyonel atış sporcularına özel; denge, hız ve isabetin mükemmel birleşimi.</p>
         </div>
